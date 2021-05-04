@@ -32,7 +32,7 @@ def sendmail():
     server.starttls()
     server.ehlo()
 
-    server.login('shashvathn@gmail.com', '')        #no password given
+    server.login('shashvathK@gmail.com', '')        #no password given
     subject = "Price has dropped"
     body = "Check the link https://www.amazon.in/Sony-ILCE-7M3K-Full-Frame-Mirrorless-Interchangeable/dp/B07DPSQRFF/ref=sr_1_3?dchild=1&keywords=sony+a7&qid=1617246451&sr=8-3"
     msg = f"Subject:{subject}\n\n {body}"
