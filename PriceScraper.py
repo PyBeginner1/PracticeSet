@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import smtplib
 
 URL = "https://www.amazon.in/Sony-ILCE-7M3K-Full-Frame-Mirrorless-Interchangeable/dp/B07DPSQRFF/ref=sr_1_3?dchild=1&keywords=sony+a7&qid=1617246451&sr=8-3"
-headers = {"User_Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36'}
+headers = {"User_Agent":''}
 
 def check_price():
     #pulls data from the url
